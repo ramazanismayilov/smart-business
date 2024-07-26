@@ -1,0 +1,61 @@
+.accountpage {
+    padding: 25px;
+
+
+    .account {
+        background-color: $white;
+        height: auto;
+
+        .entry-dates{
+            p{
+                border-bottom: 1px solid red;
+                transform: rotate(90deg);
+                width: 50%;
+            }
+            .enter{
+                border-bottom: 1px solid #EEEEEE;
+                padding-bottom: 15px;
+                width: 70%;
+            }
+        }
+
+        .user-data {
+            h5 {
+                font-size: 18px;
+            }
+
+            .photo-edit {
+                button {
+                    background-color: $peach;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+
+            .user-information {
+                form {
+                    label {
+                        font-size: 20px;
+                    }
+
+                    input {
+                        background-color: $lightGray;
+
+                        &:focus {
+                            box-shadow: none;
+                            border: 1px solid $green;
+                        }
+
+                        &::placeholder {
+                            font-size: 14px;
+                        }
+                    }
+
+                    button {
+                        background-color: $green;
+                    }
+                }
+            }
+        }
+    }
+}

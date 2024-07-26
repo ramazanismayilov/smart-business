@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1F5F7 !important;
+}
+
+* {
+    font-family: DM Sans;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button {
+    border: none;
+}
+
+.main-content {
+    margin-left: 17rem;
+    margin-top: 5rem;
+}

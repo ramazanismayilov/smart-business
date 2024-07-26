@@ -1,0 +1,3674 @@
+@charset "UTF-8";
+.analysis .heading .phone span {
+  font-size: 20px;
+}
+.analysis .heading .filterbtn button {
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: none;
+}
+.analysis .cards a {
+  color: #111111;
+}
+.analysis .cards .item {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 15px;
+}
+.analysis .cards .item .image {
+  border: 1px solid #ffb668;
+  width: 40px;
+}
+.analysis .cards .item .progress .progress-bar {
+  background-color: #FF921D;
+}
+.analysis .cards .item .price span {
+  font-size: 27px;
+}
+
+.accountpage {
+  padding: 25px;
+}
+.accountpage .account {
+  background-color: #fff;
+  height: auto;
+}
+.accountpage .account .entry-dates p {
+  border-bottom: 1px solid red;
+  transform: rotate(90deg);
+  width: 50%;
+}
+.accountpage .account .entry-dates .enter {
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 15px;
+  width: 70%;
+}
+.accountpage .account .user-data h5 {
+  font-size: 18px;
+}
+.accountpage .account .user-data .photo-edit button {
+  background-color: #FFE6C7;
+  width: 60px;
+  height: 60px;
+}
+.accountpage .account .user-data .user-information form label {
+  font-size: 20px;
+}
+.accountpage .account .user-data .user-information form input {
+  background-color: #FAFAFA;
+}
+.accountpage .account .user-data .user-information form input:focus {
+  box-shadow: none;
+  border: 1px solid #80BD34;
+}
+.accountpage .account .user-data .user-information form input::placeholder {
+  font-size: 14px;
+}
+.accountpage .account .user-data .user-information form button {
+  background-color: #80BD34;
+}
+
+.salepage .sale {
+  background-color: #fff;
+  height: 82vh;
+  position: relative;
+}
+.salepage .sale .heading .search .input-group span {
+  background: #fff;
+}
+.salepage .sale .heading .search .input-group input {
+  border-left: 0;
+}
+.salepage .sale .heading .search .input-group input:focus {
+  box-shadow: none;
+  border-color: #80BD34;
+}
+.salepage .sale h4 {
+  color: #80BD34;
+  border-bottom: 2px solid #80BD34;
+  width: 100px;
+  font-size: 16px;
+}
+.salepage .sale .filterbtn button {
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: none;
+}
+.salepage .sale .laptop table thead tr th {
+  background: #FFF4E8;
+}
+.salepage .sale .mobile {
+  display: none;
+}
+.salepage .sale .mobile .card h6 {
+  color: #FF921D;
+}
+
+@media (max-width: 768px) {
+  .sale {
+    height: auto !important;
+  }
+  .laptop {
+    display: none;
+  }
+  .mobile {
+    display: block !important;
+  }
+}
+#cashbox {
+  width: 100%;
+  padding: 20px;
+}
+#cashbox .cashbox__container {
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+}
+#cashbox .cashbox__container .cashbox__top {
+  display: flex;
+  flex-direction: column;
+}
+#cashbox .cashbox__container .cashbox__top .pagestop__direction {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#cashbox .cashbox__container .cashbox__top .pagestop__direction .pages__name {
+  font-size: 25px;
+  font-weight: bold;
+}
+#cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-icon {
+  position: absolute;
+  right: 0;
+  left: 10px;
+  color: #888;
+}
+#cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-input {
+  padding: 10px 40px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  outline: none;
+  width: 100%; /* Ensure full width */
+}
+#cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-input:focus {
+  outline: none;
+  border-color: #74ac2f;
+}
+#cashbox .cashbox__container .cashbox__top .cashboxs__name {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__cashregister,
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__payment,
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__card {
+  margin-top: 20px;
+  border-bottom: 2px solid transparent;
+  width: 150px;
+  cursor: pointer;
+}
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__cashregister p,
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__payment p,
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__card p {
+  text-align: center;
+  color: black;
+}
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcregistor.text,
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashpayment.text,
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcard.text {
+  border-bottom: 2px solid #80bd34;
+  color: #80bd34;
+}
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcregistor.text p,
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashpayment.text p,
+#cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcard.text p {
+  color: black;
+}
+#cashbox .cashbox__container .cashbox__items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#cashbox .cashbox__container .cashbox__items .card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+#cashbox .cashbox__container .cashbox__items .card .card-headers {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#cashbox .cashbox__container .cashbox__items .card .card-content {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#cashbox .cashbox__container .cashbox__items table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+#cashbox .cashbox__container .cashbox__items table th {
+  border: 1px solid #FFF4E8;
+  background-color: #FFF4E8;
+  padding: 10px;
+  text-align: center;
+}
+#cashbox .cashbox__container .cashbox__items table td {
+  border-top: none; /* Hide top border */
+  border-bottom: none; /* Hide bottom border */
+  padding: 10px;
+  text-align: center;
+}
+#cashbox .cashbox__container .cashbox__items .pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+@media (max-width: 575px) {
+  .cashbox__container .cashbox__items .card {
+    margin-top: 12px;
+    border: 1px solid #FFF4E8 !important;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white !important;
+  }
+  .cashbox__container .cashbox__items .card .card-headers {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .cashbox__container .cashbox__items .card .card-content {
+    margin-bottom: 10px;
+  }
+  .cashbox__container .cashbox__items .pagination {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+@media (max-width: 1200px) {
+  #cashbox {
+    width: 100%;
+    padding: 20px;
+  }
+  #cashbox .cashbox__container {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+  }
+  #cashbox .cashbox__container .cashbox__top {
+    display: flex;
+    flex-direction: column;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .pages__name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-icon {
+    position: absolute;
+    right: 0;
+    left: 10px;
+    color: #888;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-input {
+    padding: 10px 40px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    outline: none;
+    width: 100%; /* Ensure full width */
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-input:focus {
+    outline: none;
+    border-color: #74ac2f;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__cashregister,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__payment,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__card {
+    margin-top: 20px;
+    border-bottom: 2px solid transparent;
+    width: 150px;
+    cursor: pointer;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__cashregister p,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__payment p,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__card p {
+    text-align: center;
+    color: black;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcregistor.text,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashpayment.text,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcard.text {
+    border-bottom: 2px solid #80bd34;
+    color: #80bd34;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcregistor.text p,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashpayment.text p,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcard.text p {
+    color: black;
+  }
+  #cashbox .cashbox__container .cashbox__items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  #cashbox .cashbox__container .cashbox__items .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  #cashbox .cashbox__container .cashbox__items .card .card-headers {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  #cashbox .cashbox__container .cashbox__items .card .card-content {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  #cashbox .cashbox__container .cashbox__items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  #cashbox .cashbox__container .cashbox__items table th {
+    border: 1px solid #FFF4E8;
+    background-color: #FFF4E8;
+    padding: 10px;
+    text-align: center;
+  }
+  #cashbox .cashbox__container .cashbox__items table td {
+    border-top: none; /* Hide top border */
+    border-bottom: none; /* Hide bottom border */
+    padding: 10px;
+    text-align: center;
+  }
+  #cashbox .cashbox__container .cashbox__items .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; /* Adjust as needed */
+  }
+}
+@media (max-width: 768px) {
+  #cashbox {
+    width: 100%;
+    padding: 20px;
+  }
+  #cashbox .cashbox__container {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+  }
+  #cashbox .cashbox__container .cashbox__top {
+    display: flex;
+    flex-direction: column;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .pages__name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-icon {
+    position: absolute;
+    right: 0;
+    left: 10px;
+    color: #888;
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-input {
+    padding: 10px 40px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    outline: none;
+    width: 100%; /* Ensure full width */
+  }
+  #cashbox .cashbox__container .cashbox__top .pagestop__direction .search-bar .search-input:focus {
+    outline: none;
+    border-color: #74ac2f;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__cashregister,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__payment,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__card {
+    margin-top: 20px;
+    border-bottom: 2px solid transparent;
+    width: 150px;
+    cursor: pointer;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__cashregister p,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__payment p,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashbox__card p {
+    text-align: center;
+    color: black;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcregistor.text,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashpayment.text,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcard.text {
+    border-bottom: 2px solid #80bd34;
+    color: #80bd34;
+  }
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcregistor.text p,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashpayment.text p,
+  #cashbox .cashbox__container .cashbox__top .cashboxs__name .cashcard.text p {
+    color: black;
+  }
+  #cashbox .cashbox__container .cashbox__items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  #cashbox .cashbox__container .cashbox__items .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  #cashbox .cashbox__container .cashbox__items .card .card-headers {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  #cashbox .cashbox__container .cashbox__items .card .card-content {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  #cashbox .cashbox__container .cashbox__items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  #cashbox .cashbox__container .cashbox__items table th {
+    border: 1px solid #FFF4E8;
+    background-color: #FFF4E8;
+    padding: 10px;
+    text-align: center;
+  }
+  #cashbox .cashbox__container .cashbox__items table td {
+    border-top: none; /* Hide top border */
+    border-bottom: none; /* Hide bottom border */
+    padding: 10px;
+    text-align: center;
+  }
+  #cashbox .cashbox__container .cashbox__items .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; /* Adjust as needed */
+  }
+}
+#storehouse {
+  width: 100%;
+  padding: 20px;
+}
+#storehouse .store__container {
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+}
+#storehouse .store__container .store__top {
+  display: flex;
+  flex-direction: column;
+}
+#storehouse .store__container .store__top .pagestop__direction {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#storehouse .store__container .store__top .pagestop__direction .pages__name {
+  font-size: 25px;
+  font-weight: bold;
+}
+#storehouse .store__container .store__top .pagestop__direction .search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#storehouse .store__container .store__top .pagestop__direction .search-bar .search-icon {
+  position: absolute;
+  right: 0;
+  left: 10px;
+  color: #888;
+}
+#storehouse .store__container .store__top .pagestop__direction .search-bar .search-input {
+  padding: 10px 40px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  outline: none;
+}
+#storehouse .store__container .store__top .pagestop__direction .search-bar .search-input:focus {
+  outline: none;
+  border-color: #74ac2f;
+}
+#storehouse .store__container .store__top .store_all {
+  border-bottom: 2px solid #80BD34;
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #80BD34;
+}
+#storehouse .store__container .table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+#storehouse .store__container .table th {
+  border: 1px solid #FFF4E8;
+  background-color: #FFF4E8;
+  padding: 10px;
+  text-align: center;
+}
+#storehouse .store__container .table td {
+  border-top: none; /* Hide top border */
+  border-bottom: none; /* Hide bottom border */
+  padding: 10px;
+  text-align: center;
+}
+#storehouse .store__container .pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+@media (max-width: 1200px) {
+  #storehouse {
+    width: 100%;
+    padding: 20px;
+  }
+  #storehouse .store__container {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+  }
+  #storehouse .store__container .store__top {
+    display: flex;
+    flex-direction: column;
+  }
+  #storehouse .store__container .store__top .pagestop__direction {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .pages__name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .search-bar .search-icon {
+    position: absolute;
+    right: 0;
+    left: 10px;
+    color: #888;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .search-bar .search-input {
+    padding: 10px 40px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    outline: none;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .search-bar .search-input:focus {
+    outline: none;
+    border-color: #74ac2f;
+  }
+  #storehouse .store__container .store__top .store_all {
+    border-bottom: 2px solid #80BD34;
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #80BD34;
+  }
+  #storehouse .store__container .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  #storehouse .store__container .table th {
+    border: 1px solid #FFF4E8;
+    background-color: #FFF4E8;
+    padding: 10px;
+    text-align: center;
+  }
+  #storehouse .store__container .table td {
+    border-top: none; /* Hide top border */
+    border-bottom: none; /* Hide bottom border */
+    padding: 10px;
+    text-align: center;
+  }
+  #storehouse .store__container .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; /* Adjust as needed */
+  }
+}
+@media (max-width: 768px) {
+  #storehouse {
+    width: 100%;
+    padding: 20px;
+  }
+  #storehouse .store__container {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+  }
+  #storehouse .store__container .store__top {
+    display: flex;
+    flex-direction: column;
+  }
+  #storehouse .store__container .store__top .pagestop__direction {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .pages__name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .search-bar .search-icon {
+    position: absolute;
+    right: 0;
+    left: 10px;
+    color: #888;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .search-bar .search-input {
+    padding: 10px 40px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    outline: none;
+  }
+  #storehouse .store__container .store__top .pagestop__direction .search-bar .search-input:focus {
+    outline: none;
+    border-color: #74ac2f;
+  }
+  #storehouse .store__container .store__top .store_all {
+    border-bottom: 2px solid #80BD34;
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #80BD34;
+  }
+  #storehouse .store__container .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  #storehouse .store__container .table th {
+    border: 1px solid #FFF4E8;
+    background-color: #FFF4E8;
+    padding: 10px;
+    text-align: center;
+  }
+  #storehouse .store__container .table td {
+    border-top: none; /* Hide top border */
+    border-bottom: none; /* Hide bottom border */
+    padding: 10px;
+    text-align: center;
+  }
+  #storehouse .store__container .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; /* Adjust as needed */
+  }
+}
+@media (max-width: 575px) {
+  .store__items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cardstore {
+    margin-top: 12px;
+    border: 1px solid #FFF4E8;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+  }
+  .card-headers {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .card-content {
+    color: #333;
+    margin-bottom: 10px;
+  }
+}
+#debt {
+  width: 100%;
+  padding: 20px;
+}
+#debt .debt__container {
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+}
+#debt .debt__container .debt__top {
+  display: flex;
+  flex-direction: column;
+}
+#debt .debt__container .debt__top .pagestop__direction {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#debt .debt__container .debt__top .pagestop__direction .pages__name {
+  font-size: 25px;
+  font-weight: bold;
+}
+#debt .debt__container .debt__top .pagestop__direction .search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#debt .debt__container .debt__top .pagestop__direction .search-bar .search-icon {
+  position: absolute;
+  right: 0;
+  left: 10px;
+  color: #888;
+}
+#debt .debt__container .debt__top .pagestop__direction .search-bar .search-input {
+  padding: 10px 40px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  outline: none;
+}
+#debt .debt__container .debt__top .pagestop__direction .search-bar .search-input:focus {
+  outline: none;
+  border-color: #74ac2f;
+}
+#debt .debt__container .debt__top .debts__name {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+#debt .debt__container .debt__top .debts__name .debt__creditor,
+#debt .debt__container .debt__top .debts__name .debt__debtor {
+  margin-top: 20px;
+  border-bottom: 2px solid transparent;
+  width: 150px;
+  cursor: pointer;
+}
+#debt .debt__container .debt__top .debts__name .debt__creditor p,
+#debt .debt__container .debt__top .debts__name .debt__debtor p {
+  text-align: center;
+  color: black;
+}
+#debt .debt__container .debt__top .debts__name .debt__creditor.text,
+#debt .debt__container .debt__top .debts__name .debt__debtor.text {
+  border-bottom: 2px solid #80bd34;
+  color: #80bd34;
+}
+#debt .debt__container .debt__top .debts__name .debt__creditor.text p,
+#debt .debt__container .debt__top .debts__name .debt__debtor.text p {
+  color: #80bd34;
+}
+#debt .debt__container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+#debt .debt__container table th {
+  border: 1px solid #FFF4E8;
+  background-color: #FFF4E8;
+  padding: 10px;
+  text-align: center;
+}
+#debt .debt__container table td {
+  border-top: none; /* Hide top border */
+  border-bottom: none; /* Hide bottom border */
+  padding: 10px;
+  text-align: center;
+}
+#debt .debt__container table tbody tr:hover {
+  background-color: red; /* Red background color on hover */
+}
+#debt .debt__container .pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+@media (max-width: 1200px) {
+  #debt {
+    width: 100%;
+    padding: 20px;
+  }
+  #debt .debt__container {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+  }
+  #debt .debt__container .debt__top {
+    display: flex;
+    flex-direction: column;
+  }
+  #debt .debt__container .debt__top .pagestop__direction {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .pages__name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .search-bar .search-icon {
+    position: absolute;
+    right: 0;
+    left: 10px;
+    color: #888;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .search-bar .search-input {
+    padding: 10px 40px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    outline: none;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .search-bar .search-input:focus {
+    outline: none;
+    border-color: #74ac2f;
+  }
+  #debt .debt__container .debt__top .debts__name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  #debt .debt__container .debt__top .debts__name .debt__creditor,
+  #debt .debt__container .debt__top .debts__name .debt__debtor {
+    margin-top: 20px;
+    border-bottom: 2px solid transparent;
+    width: 150px;
+    cursor: pointer;
+  }
+  #debt .debt__container .debt__top .debts__name .debt__creditor p,
+  #debt .debt__container .debt__top .debts__name .debt__debtor p {
+    text-align: center;
+    color: black;
+  }
+  #debt .debt__container .debt__top .debts__name .debt__creditor.text,
+  #debt .debt__container .debt__top .debts__name .debt__debtor.text {
+    border-bottom: 2px solid #80bd34;
+    color: #80bd34;
+  }
+  #debt .debt__container .debt__top .debts__name .debt__creditor.text p,
+  #debt .debt__container .debt__top .debts__name .debt__debtor.text p {
+    color: #80bd34;
+  }
+  #debt .debt__container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  #debt .debt__container table th {
+    border: 1px solid #FFF4E8;
+    background-color: #FFF4E8;
+    padding: 10px;
+    text-align: center;
+  }
+  #debt .debt__container table td {
+    border-top: none; /* Hide top border */
+    border-bottom: none; /* Hide bottom border */
+    padding: 10px;
+    text-align: center;
+  }
+  #debt .debt__container table tbody tr:hover {
+    background-color: red; /* Red background color on hover */
+  }
+  #debt .debt__container .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; /* Adjust as needed */
+  }
+}
+@media (max-width: 768px) {
+  #debt {
+    width: 100%;
+    padding: 20px;
+  }
+  #debt .debt__container {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+  }
+  #debt .debt__container .debt__top {
+    display: flex;
+    flex-direction: column;
+  }
+  #debt .debt__container .debt__top .pagestop__direction {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .pages__name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .search-bar .search-icon {
+    position: absolute;
+    right: 0;
+    left: 10px;
+    color: #888;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .search-bar .search-input {
+    padding: 10px 40px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    outline: none;
+  }
+  #debt .debt__container .debt__top .pagestop__direction .search-bar .search-input:focus {
+    outline: none;
+    border-color: #74ac2f;
+  }
+  #debt .debt__container .debt__top .debts__name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  #debt .debt__container .debt__top .debts__name .debt__creditor,
+  #debt .debt__container .debt__top .debts__name .debt__debtor {
+    margin-top: 20px;
+    border-bottom: 2px solid transparent;
+    width: 150px;
+    cursor: pointer;
+  }
+  #debt .debt__container .debt__top .debts__name .debt__creditor p,
+  #debt .debt__container .debt__top .debts__name .debt__debtor p {
+    text-align: center;
+    color: black;
+  }
+  #debt .debt__container .debt__top .debts__name .debt__creditor.text,
+  #debt .debt__container .debt__top .debts__name .debt__debtor.text {
+    border-bottom: 2px solid #80bd34;
+    color: #80bd34;
+  }
+  #debt .debt__container .debt__top .debts__name .debt__creditor.text p,
+  #debt .debt__container .debt__top .debts__name .debt__debtor.text p {
+    color: #80bd34;
+  }
+  #debt .debt__container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  #debt .debt__container table th {
+    border: 1px solid #FFF4E8;
+    background-color: #FFF4E8;
+    padding: 10px;
+    text-align: center;
+  }
+  #debt .debt__container table td {
+    border-top: none; /* Hide top border */
+    border-bottom: none; /* Hide bottom border */
+    padding: 10px;
+    text-align: center;
+  }
+  #debt .debt__container table tbody tr:hover {
+    background-color: red; /* Red background color on hover */
+  }
+  #debt .debt__container .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; /* Adjust as needed */
+  }
+}
+@media (max-width: 575px) {
+  .debt__container .debt__items .card {
+    margin-top: 12px;
+    border: 1px solid #FFF4E8;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+  }
+  .debt__container .debt__items .card .card-headers {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .debt__container .debt__items .card .card-content {
+    margin-bottom: 10px;
+  }
+}
+#login {
+  overflow: hidden;
+  height: 100vh;
+}
+#login .login__container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+#login .login__container .login__leftsize {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#login .login__container .login__leftsize .login__left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 18%;
+  align-items: baseline;
+}
+#login .login__container .login__leftsize .login__left .login__top {
+  font-size: 26px;
+  font-weight: bold;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10px;
+  margin-left: 0%;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .inputtexweight {
+  font-weight: bold;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .email__input {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 9px;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .email__input:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .passwordforget {
+  color: #74ac2f;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .inputtexweight {
+  font-weight: bold;
+  font-size: 15px;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .passwordvisible {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 9px;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .passwordvisible:focus {
+  outline: none;
+  border-color: #74ac2f;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .eyesiconsd {
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+  top: 50%;
+  right: 5px;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .paswordforget {
+  color: #74ac2f;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__button .sign__btn {
+  border: 1px solid;
+  width: 350px;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: #74ac2f;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore .lisnesmoretext {
+  color: #74ac2f;
+  font-size: 12px;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore .linesgooglebtn {
+  border: 1px solid #8E98A8;
+  width: 150px;
+  height: 0;
+  opacity: 25%;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button {
+  border: 1px solid #D8EBC0;
+  border-radius: 12px;
+  width: 350px;
+  padding: 4px;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button .googlebox {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  justify-content: center;
+  align-items: flex-start;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button .googlebox .google {
+  color: black;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__buttomtext {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+#login .login__container .login__leftsize .login__left .login__inputbtn .login__buttomtext .signaccount {
+  text-decoration: none;
+  color: #74ac2f;
+}
+#login .login__container .login__right {
+  position: relative;
+  width: 100%;
+}
+#login .login__container .login__right .logindefaultphoto {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  #login {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #login .login__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #login .login__container .login__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #login .login__container .login__leftsize .login__left .login__top {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .inputtexweight {
+    font-weight: bold;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .email__input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .passwordforget {
+    color: #74ac2f;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .inputtexweight {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .passwordvisible {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .passwordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .eyesiconsd {
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+    top: 50%;
+    right: 5px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .paswordforget {
+    color: #74ac2f;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore .lisnesmoretext {
+    color: #74ac2f;
+    font-size: 12px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore .linesgooglebtn {
+    border: 1px solid #8E98A8;
+    width: 150px;
+    height: 0;
+    opacity: 25%;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button {
+    border: 1px solid #D8EBC0;
+    border-radius: 12px;
+    width: 350px;
+    padding: 4px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button .googlebox {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button .googlebox .google {
+    color: black;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__buttomtext {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__buttomtext .signaccount {
+    text-decoration: none;
+    color: #74ac2f;
+  }
+  #login .login__container .login__right {
+    position: relative;
+    width: 100%;
+  }
+  #login .login__container .login__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #login {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #login .login__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #login .login__container .login__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #login .login__container .login__leftsize .login__left .login__top {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .inputtexweight {
+    font-weight: bold;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .email__input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .passwordforget {
+    color: #74ac2f;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .inputtexweight {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .passwordvisible {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .passwordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .eyesiconsd {
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+    top: 50%;
+    right: 5px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .paswordforget {
+    color: #74ac2f;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore .lisnesmoretext {
+    color: #74ac2f;
+    font-size: 12px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore .linesgooglebtn {
+    border: 1px solid #8E98A8;
+    width: 150px;
+    height: 0;
+    opacity: 25%;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button {
+    border: 1px solid #D8EBC0;
+    border-radius: 12px;
+    width: 350px;
+    padding: 4px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button .googlebox {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button .googlebox .google {
+    color: black;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__buttomtext {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__buttomtext .signaccount {
+    text-decoration: none;
+    color: #74ac2f;
+  }
+  #login .login__container .login__right {
+    display: none;
+  }
+  #login .login__container .login__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  #login {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #login .login__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #login .login__container .login__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #login .login__container .login__leftsize .login__left .login__top {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .inputtexweight {
+    font-weight: bold;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .email__input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .passwordforget {
+    color: #74ac2f;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .inputtexweight {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .passwordvisible {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .passwordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .login__password .paswordinptsd .eyesiconsd {
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+    top: 50%;
+    right: 5px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__inputs .paswordforget {
+    color: #74ac2f;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore .lisnesmoretext {
+    color: #74ac2f;
+    font-size: 12px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .linemore .linesgooglebtn {
+    border: 1px solid #8E98A8;
+    width: 150px;
+    height: 0;
+    opacity: 25%;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button {
+    border: 1px solid #D8EBC0;
+    border-radius: 12px;
+    width: 350px;
+    padding: 4px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button .googlebox {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__button .google__button .googlebox .google {
+    color: black;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__buttomtext {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  #login .login__container .login__leftsize .login__left .login__inputbtn .login__buttomtext .signaccount {
+    text-decoration: none;
+    color: #74ac2f;
+  }
+  #login .login__container .login__right {
+    display: none;
+  }
+  #login .login__container .login__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+#registration {
+  overflow: hidden;
+  height: 100vh;
+}
+#registration .registration__container {
+  display: flex;
+  flex-direction: row;
+}
+#registration .registration__container .registration__leftsize {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#registration .registration__container .registration__leftsize .registration__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: auto;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__top {
+  font-size: 26px;
+  font-weight: bold;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: center;
+  gap: 6px;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__name .name__input {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 8px;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__name .name__input:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__surnamename .surname__input {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 8px;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__surnamename .surname__input:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .inputtexweight {
+  font-weight: bold;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .email__input {
+  width: 367px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 9px;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .email__input:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__pasword .paswordsinpt {
+  position: relative;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__pasword .paswordsinpt .airicons {
+  position: absolute;
+  right: 8%;
+  top: 40%;
+  cursor: pointer;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registrationrestrat__pasword .paswordsinpt {
+  position: relative;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registrationrestrat__pasword .paswordsinpt .air__icon {
+  position: absolute;
+  right: 8%;
+  top: 40%;
+  cursor: pointer;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordvisible {
+  width: 367px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 9px;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordvisible:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordforget {
+  color: #74ac2f;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .sign__btn {
+  border: 1px solid;
+  width: 350px;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: #74ac2f;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 12px;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore .lisnesmoretext {
+  color: #74ac2f;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore .linesgooglebtn {
+  border: 1px solid #8E98A8;
+  width: 149px;
+  height: 0;
+  opacity: 25%;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button {
+  border: 1px solid #D8EBC0;
+  border-radius: 12px;
+  width: 350px;
+  padding: 4px;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button .googlebox {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  justify-content: center;
+  align-items: flex-start;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button .googlebox .google {
+  color: black;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__buttomtext {
+  display: flex;
+  flex-direction: row;
+}
+#registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__buttomtext .signaccount {
+  text-decoration: none;
+  color: #74ac2f;
+}
+#registration .registration__container .registration__right {
+  width: 100%; /* Genişliği orantılı hale getir */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* Arka plan rengi */
+}
+#registration .registration__container .registration__right .logindeafultphoto {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto; /* Fotoğrafın oranını koru */
+  width: auto; /* Fotoğrafın oranını koru */
+}
+
+@media screen and (max-width: 1000px) {
+  #registration {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #registration .registration__container {
+    display: flex;
+    flex-direction: row;
+  }
+  #registration .registration__container .registration__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #registration .registration__container .registration__leftsize .registration__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__top {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+    gap: 6px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__name .name__input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__name .name__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__surnamename .surname__input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__surnamename .surname__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .inputtexweight {
+    font-weight: bold;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .email__input {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__pasword .paswordsinpt {
+    position: relative;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__pasword .paswordsinpt .airicons {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registrationrestrat__pasword .paswordsinpt {
+    position: relative;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registrationrestrat__pasword .paswordsinpt .air__icon {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordforget {
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 12px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore .lisnesmoretext {
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore .linesgooglebtn {
+    border: 1px solid #8E98A8;
+    width: 149px;
+    height: 0;
+    opacity: 25%;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button {
+    border: 1px solid #D8EBC0;
+    border-radius: 12px;
+    width: 350px;
+    padding: 4px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button .googlebox {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button .googlebox .google {
+    color: black;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__buttomtext {
+    display: flex;
+    flex-direction: row;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__buttomtext .signaccount {
+    text-decoration: none;
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__right {
+    width: 100%; /* Genişliği orantılı hale getir */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8; /* Arka plan rengi */
+  }
+  #registration .registration__container .registration__right .logindeafultphoto {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; /* Fotoğrafın oranını koru */
+    width: auto; /* Fotoğrafın oranını koru */
+  }
+}
+@media screen and (max-width: 768px) {
+  #registration {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #registration .registration__container {
+    display: flex;
+    flex-direction: row;
+  }
+  #registration .registration__container .registration__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #registration .registration__container .registration__leftsize .registration__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__top {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+    gap: 6px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__name .name__input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__name .name__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__surnamename .surname__input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__surnamename .surname__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .inputtexweight {
+    font-weight: bold;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .email__input {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__pasword .paswordsinpt {
+    position: relative;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__pasword .paswordsinpt .airicons {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registrationrestrat__pasword .paswordsinpt {
+    position: relative;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registrationrestrat__pasword .paswordsinpt .air__icon {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordforget {
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 12px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore .lisnesmoretext {
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore .linesgooglebtn {
+    border: 1px solid #8E98A8;
+    width: 149px;
+    height: 0;
+    opacity: 25%;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button {
+    border: 1px solid #D8EBC0;
+    border-radius: 12px;
+    width: 350px;
+    padding: 4px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button .googlebox {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button .googlebox .google {
+    color: black;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__buttomtext {
+    display: flex;
+    flex-direction: row;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__buttomtext .signaccount {
+    text-decoration: none;
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__right {
+    display: none;
+  }
+  #registration .registration__container .registration__right .logindeafultphoto {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; /* Fotoğrafın oranını koru */
+    width: auto; /* Fotoğrafın oranını koru */
+  }
+}
+@media screen and (max-width: 575px) {
+  #registration {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #registration .registration__container {
+    display: flex;
+    flex-direction: row;
+  }
+  #registration .registration__container .registration__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #registration .registration__container .registration__leftsize .registration__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__top {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+    gap: 6px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__name .name__input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__name .name__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__surnamename .surname__input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .namesurnameline .registration__surnamename .surname__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .inputtexweight {
+    font-weight: bold;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .email__input {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__pasword .paswordsinpt {
+    position: relative;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__pasword .paswordsinpt .airicons {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registrationrestrat__pasword .paswordsinpt {
+    position: relative;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registrationrestrat__pasword .paswordsinpt .air__icon {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .paswordforget {
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 12px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore .lisnesmoretext {
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .linemore .linesgooglebtn {
+    border: 1px solid #8E98A8;
+    width: 149px;
+    height: 0;
+    opacity: 25%;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button {
+    border: 1px solid #D8EBC0;
+    border-radius: 12px;
+    width: 350px;
+    padding: 4px;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button .googlebox {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__button .google__button .googlebox .google {
+    color: black;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__buttomtext {
+    display: flex;
+    flex-direction: row;
+  }
+  #registration .registration__container .registration__leftsize .registration__left .registration__inputs .registration__buttomtext .signaccount {
+    text-decoration: none;
+    color: #74ac2f;
+  }
+  #registration .registration__container .registration__right {
+    display: none;
+  }
+  #registration .registration__container .registration__right .logindeafultphoto {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; /* Fotoğrafın oranını koru */
+    width: auto; /* Fotoğrafın oranını koru */
+  }
+}
+.storespage {
+  background-color: #fff;
+  margin-top: 6.5rem !important;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  height: 82vh;
+}
+.storespage .stores .head {
+  border-bottom: 1px solid #80BD34;
+  padding-bottom: 15px;
+}
+.storespage .stores .head .image {
+  background: #F2F8EB;
+}
+.storespage .stores .head .title span {
+  color: #80BD34;
+}
+.storespage .stores .stores-name span {
+  padding: 5px;
+  transition: 0.2s;
+}
+.storespage .stores .stores-name span:hover {
+  transform: translate(10px);
+  border-bottom: 1px solid #80BD34;
+}
+
+@media (max-width: 768px) {
+  .storespage {
+    height: auto !important;
+  }
+}
+#newpasword {
+  overflow: hidden;
+  height: 100vh;
+}
+#newpasword .newpasword__container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+#newpasword .newpasword__container .newpasword__leftsize {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 18%;
+  align-items: baseline;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__top .topnames {
+  font-size: 32px;
+  font-weight: bold;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: baseline;
+  gap: 6px;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .email__input {
+  width: 367px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 9px;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .email__input:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .inputtexweight {
+  font-weight: bold;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordsinpt {
+  position: relative;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordsinpt .airicons {
+  position: absolute;
+  right: 8%;
+  top: 40%;
+  cursor: pointer;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .inputtexweight {
+  font-weight: bold;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordvisible {
+  width: 367px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 9px;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordvisible:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordforget {
+  color: #74ac2f;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordsinpt {
+  position: relative;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordsinpt .air__icon {
+  position: absolute;
+  right: 8%;
+  top: 40%;
+  cursor: pointer;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .inputtexweight {
+  font-weight: bold;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordvisible {
+  width: 367px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 9px;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordvisible:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordforget {
+  color: #74ac2f;
+}
+#newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .sign__btn {
+  border: 1px solid;
+  width: 350px;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: #74ac2f;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 12px;
+}
+#newpasword .newpasword__container .newpasword__right {
+  position: relative;
+  width: 100%;
+}
+#newpasword .newpasword__container .newpasword__right .logindeafultphoto {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  #newpasword {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #newpasword .newpasword__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__top .topnames {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: baseline;
+    gap: 6px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .email__input {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordsinpt {
+    position: relative;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordsinpt .airicons {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordforget {
+    color: #74ac2f;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordsinpt {
+    position: relative;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordsinpt .air__icon {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordforget {
+    color: #74ac2f;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  #newpasword .newpasword__container .newpasword__right {
+    position: relative;
+    width: 100%;
+  }
+  #newpasword .newpasword__container .newpasword__right .logindeafultphoto {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #newpasword {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #newpasword .newpasword__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__top .topnames {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: baseline;
+    gap: 6px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .email__input {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordsinpt {
+    position: relative;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordsinpt .airicons {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordforget {
+    color: #74ac2f;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordsinpt {
+    position: relative;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordsinpt .air__icon {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordforget {
+    color: #74ac2f;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  #newpasword .newpasword__container .newpasword__right {
+    display: none;
+  }
+  #newpasword .newpasword__container .newpasword__right .logindeafultphoto {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  #newpasword {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #newpasword .newpasword__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__top .topnames {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: baseline;
+    gap: 6px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .email__input {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__email .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordsinpt {
+    position: relative;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordsinpt .airicons {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__top .paswordforget {
+    color: #74ac2f;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordsinpt {
+    position: relative;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordsinpt .air__icon {
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    cursor: pointer;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .inputtexweight {
+    font-weight: bold;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordvisible {
+    width: 367px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordvisible:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .newpasword__restrat .paswordforget {
+    color: #74ac2f;
+  }
+  #newpasword .newpasword__container .newpasword__leftsize .newpasword__left .newpasword__inputs .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  #newpasword .newpasword__container .newpasword__right {
+    display: none;
+  }
+  #newpasword .newpasword__container .newpasword__right .logindeafultphoto {
+    width: 100%;
+  }
+}
+#forgetpasword {
+  overflow: hidden;
+  height: 100vh;
+}
+#forgetpasword .forgetpasword__container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 18%;
+  align-items: baseline;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forgettopname {
+  font-weight: bold;
+  font-size: 34px;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forgettexts {
+  width: 60%;
+  text-align: center;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .inputtexweight {
+  font-weight: bold;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .email__input {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 9px;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .email__input:focus {
+  outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+  border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .sign__btn {
+  border: 1px solid;
+  width: 350px;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: #74ac2f;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__buttomhref {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: baseline;
+  margin-top: 7px;
+}
+#forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__buttomhref .signaccount {
+  color: #74ac2f;
+}
+#forgetpasword .forgetpasword__container .forget__right {
+  position: relative;
+  width: 100%;
+}
+#forgetpasword .forgetpasword__container .forget__right .logindefaultphoto {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  #forgetpasword {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #forgetpasword .forgetpasword__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forgettopname {
+    font-weight: bold;
+    font-size: 34px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forgettexts {
+    width: 60%;
+    text-align: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .inputtexweight {
+    font-weight: bold;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .email__input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__buttomhref {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: baseline;
+    margin-top: 7px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__buttomhref .signaccount {
+    color: #74ac2f;
+  }
+  #forgetpasword .forgetpasword__container .forget__right {
+    position: relative;
+    width: 100%;
+  }
+  #forgetpasword .forgetpasword__container .forget__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #forgetpasword {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #forgetpasword .forgetpasword__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forgettopname {
+    font-weight: bold;
+    font-size: 34px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forgettexts {
+    width: 60%;
+    text-align: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .inputtexweight {
+    font-weight: bold;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .email__input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__buttomhref {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: baseline;
+    margin-top: 7px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__buttomhref .signaccount {
+    color: #74ac2f;
+  }
+  #forgetpasword .forgetpasword__container .forget__right {
+    display: none;
+  }
+  #forgetpasword .forgetpasword__container .forget__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  #forgetpasword {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #forgetpasword .forgetpasword__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forgettopname {
+    font-weight: bold;
+    font-size: 34px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forgettexts {
+    width: 60%;
+    text-align: center;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .inputtexweight {
+    font-weight: bold;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .email__input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 9px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__email .email__input:focus {
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .sign__btn {
+    border: 1px solid;
+    width: 350px;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #74ac2f;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__buttomhref {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: baseline;
+    margin-top: 7px;
+  }
+  #forgetpasword .forgetpasword__container .forget__leftsize .forget__left .forget__top .forget__buttomhref .signaccount {
+    color: #74ac2f;
+  }
+  #forgetpasword .forgetpasword__container .forget__right {
+    display: none;
+  }
+  #forgetpasword .forgetpasword__container .forget__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+#emailsend {
+  overflow: hidden;
+  height: 100vh;
+}
+#emailsend .emailsend__container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+#emailsend .emailsend__container .email__leftsize {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#emailsend .emailsend__container .email__leftsize .email__left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 18%;
+  align-items: baseline;
+}
+#emailsend .emailsend__container .email__leftsize .email__left .email__top {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+#emailsend .emailsend__container .email__leftsize .email__left .email__top .signaccount {
+  color: green;
+}
+#emailsend .emailsend__container .email__leftsize .email__left .email__top .emailtopname {
+  font-weight: bold;
+  font-size: 34px;
+}
+#emailsend .emailsend__container .email__leftsize .email__left .email__top .emailtexts {
+  width: 70%;
+  text-align: center;
+}
+#emailsend .emailsend__container .email__right {
+  position: relative;
+  width: 100%;
+}
+#emailsend .emailsend__container .email__right .logindefaultphoto {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  #emailsend {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #emailsend .emailsend__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #emailsend .emailsend__container .email__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .signaccount {
+    color: green;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .emailtopname {
+    font-weight: bold;
+    font-size: 34px;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .emailtexts {
+    width: 70%;
+    text-align: center;
+  }
+  #emailsend .emailsend__container .email__right {
+    position: relative;
+    width: 100%;
+  }
+  #emailsend .emailsend__container .email__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #emailsend {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #emailsend .emailsend__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #emailsend .emailsend__container .email__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .signaccount {
+    color: green;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .emailtopname {
+    font-weight: bold;
+    font-size: 34px;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .emailtexts {
+    width: 70%;
+    text-align: center;
+  }
+  #emailsend .emailsend__container .email__right {
+    display: none;
+  }
+  #emailsend .emailsend__container .email__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  #emailsend {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #emailsend .emailsend__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #emailsend .emailsend__container .email__leftsize {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18%;
+    align-items: baseline;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .signaccount {
+    color: green;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .emailtopname {
+    font-weight: bold;
+    font-size: 34px;
+  }
+  #emailsend .emailsend__container .email__leftsize .email__left .email__top .emailtexts {
+    width: 70%;
+    text-align: center;
+  }
+  #emailsend .emailsend__container .email__right {
+    display: none;
+  }
+  #emailsend .emailsend__container .email__right .logindefaultphoto {
+    width: 100%;
+    height: 100%;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F1F5F7 !important;
+}
+
+* {
+  font-family: DM Sans;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  border: none;
+}
+
+.main-content {
+  margin-left: 17rem;
+  margin-top: 5rem;
+}
+
+svg path {
+  stroke: gray;
+}
+
+.active {
+  background: #80BD34;
+  color: #fff !important;
+}
+.active svg path {
+  stroke: #fff;
+}
+
+.sidebar {
+  width: 18%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+.sidebar .sidebar-content a {
+  color: #111111;
+  padding: 10px 32px;
+  border-radius: 10px;
+  display: block;
+  font-weight: 500;
+}
+.sidebar .sidebar-content .content-second {
+  margin-top: 70px;
+}
+.sidebar .footer span {
+  font-size: 14px;
+}
+
+.sidebar-menu {
+  width: 18%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.sidebar-menu .sidebar-content a {
+  color: #111111;
+  padding: 10px 32px;
+  border-radius: 10px;
+  display: block;
+  font-weight: 500;
+}
+.sidebar-menu .sidebar-content .content-second {
+  margin-top: 70px;
+}
+.sidebar-menu .footer span {
+  font-size: 14px;
+}
+.sidebar-menu .open-btn {
+  display: none;
+  background-color: transparent;
+  position: absolute;
+  top: 19px;
+  font-size: 25px;
+}
+.sidebar-menu .close-btn {
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  font-size: 30px;
+}
+.sidebar-menu .offcanvas-menu {
+  overflow-y: scroll;
+  z-index: 100;
+  position: fixed;
+  width: 30% !important;
+  height: 100vh;
+  transform: translate(-100%);
+  transition: 0.5s;
+  width: 18%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.sidebar-menu .offcanvas-menu .sidebar-content a {
+  color: #111111;
+  padding: 10px 32px;
+  border-radius: 10px;
+  display: block;
+  font-weight: 500;
+}
+.sidebar-menu .offcanvas-menu .sidebar-content .content-second {
+  margin-top: 70px;
+}
+.sidebar-menu .offcanvas-menu .footer span {
+  font-size: 14px;
+}
+.sidebar-menu .offcanvas-menu.open {
+  transform: translate(0);
+}
+.sidebar-menu .offcanvas-menu.close {
+  transform: translate(100%);
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .sidebar-menu .open-btn {
+    display: block;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+}
+@media (max-width: 576px) {
+  .sidebar-menu .offcanvas-menu {
+    width: 50% !important;
+  }
+}
+header {
+  background-color: #fff;
+  padding-left: 18rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+header .search-bar .dropdown .menu {
+  background-color: #fff;
+}
+header .search-bar .store .dropdown {
+  position: relative;
+}
+header .search-bar .store .dropdown button {
+  color: #46681D;
+  background: #FAFAFA;
+  border-radius: 10px;
+  padding: 12px;
+}
+header .search-bar .store .dropdown .menu {
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 0;
+  padding: 10px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.38);
+}
+header .search-bar .store .dropdown .menu button {
+  background: transparent;
+}
+header .search-bar .store .dropdown .menu .content h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+header .search-bar .store .dropdown .menu .content span {
+  font-size: 14px;
+  color: #8e8c8c;
+}
+header .search-bar .store .dropdown .menu {
+  width: 300px;
+}
+header .search-bar .language .dropdown {
+  position: relative;
+}
+header .search-bar .language .dropdown button {
+  color: #46681D;
+  background: #FAFAFA;
+  border-radius: 10px;
+  padding: 12px;
+}
+header .search-bar .language .dropdown .menu {
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 0;
+  padding: 10px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.38);
+}
+header .search-bar .language .dropdown .menu button {
+  background: transparent;
+}
+header .search-bar .language .dropdown .menu .content h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+header .search-bar .language .dropdown .menu .content span {
+  font-size: 14px;
+  color: #8e8c8c;
+}
+header .search-bar .notification .dropdown {
+  position: relative;
+}
+header .search-bar .notification .dropdown button {
+  color: #46681D;
+  background: #FAFAFA;
+  border-radius: 10px;
+  padding: 12px;
+}
+header .search-bar .notification .dropdown .menu {
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 0;
+  padding: 10px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.38);
+}
+header .search-bar .notification .dropdown .menu button {
+  background: transparent;
+}
+header .search-bar .notification .dropdown .menu .content h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+header .search-bar .notification .dropdown .menu .content span {
+  font-size: 14px;
+  color: #8e8c8c;
+}
+header .search-bar .notification .dropdown .menu {
+  width: 350px;
+}
+header .search-bar .profile img {
+  background-color: #FFE6C7;
+  border-radius: 10px;
+  width: 48px;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0;
+    padding-left: 40px;
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "nameofSupplier": "BameofSupplier",
+        "amount": 653543.99
+    },
+    {
+        "customername": "RameofCustomer",
+        "amount": 342.99
+    }, {
+        "nameofSupplier": "NameofSupplier",
+        "amount": 653543.99
+    },
+    {
+        "customername": "EameofCustomer",
+        "amount": 342.99
+    }, {
+        "nameofSupplier": "NameofSupplier",
+        "amount": 653543.99
+    },
+    {
+        "customername": "NameofCustomer",
+        "amount": 342.99
+    }, {
+        "nameofSupplier": "NameofSupplier",
+        "amount": 653543.99
+    },
+    {
+        "customername": "NameofCustomer",
+        "amount": 342.99
+    },{
+        "nameofSupplier": "NameofSupplier",
+        "amount": 653543.99
+    },
+    {
+        "customername": "NameofCustomer",
+        "amount": 342.99
+    }
+]

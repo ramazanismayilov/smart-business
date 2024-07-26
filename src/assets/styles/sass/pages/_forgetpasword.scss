@@ -1,0 +1,332 @@
+#forgetpasword{
+    overflow: hidden;
+    height: 100vh;
+    .forgetpasword__container{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        .forget__leftsize{
+            width: 100%;
+            background-color: white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .forget__left{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 18%;
+                align-items: baseline;
+                .forget__top{
+                    display: flex;
+                    gap: 15px;
+                    flex-direction: column;
+                    align-items: center;
+                    .forgettopname{
+                        font-weight: bold;
+                        font-size: 34px;
+                    }
+                    .forgettexts{
+                        width: 60%;
+                        text-align: center;
+                    }
+                    .forget__email {
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+                        .email__input {
+                            width: 350px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+                        .email__input:focus {
+                            outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                            border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                           
+                        }
+                    }
+                    .sign__btn{
+                        border: 1px solid;
+                        width: 350px;
+                        border-radius: 5%;
+                        padding: 10px;
+                        background-color: #74ac2f;
+                        color: white;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                    .forget__buttomhref{
+                        display: flex;
+                        flex-direction:row ;
+                        gap: 4px;
+                        align-items: baseline;
+                        margin-top: 7px;
+                        .signaccount{
+                            color: #74ac2f;
+                        }
+                    }
+                }
+            }
+        }
+        .forget__right{
+            position: relative;
+            width: 100%;
+            .logindefaultphoto {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    #forgetpasword{
+        overflow: hidden;
+        height: 100vh;
+        .forgetpasword__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .forget__leftsize{
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .forget__left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-top: 18%;
+                    align-items: baseline;
+                    .forget__top{
+                        display: flex;
+                        gap: 15px;
+                        flex-direction: column;
+                        align-items: center;
+                        .forgettopname{
+                            font-weight: bold;
+                            font-size: 34px;
+                        }
+                        .forgettexts{
+                            width: 60%;
+                            text-align: center;
+                        }
+                        .forget__email {
+                            .inputtexweight {
+                                font-weight: bold;
+                            }
+                            .email__input {
+                                width: 350px;
+                                padding: 10px;
+                                border: 1px solid #EEEEEE;
+                                border-radius: 9px;
+                            }
+                            .email__input:focus {
+                                outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                               
+                            }
+                        }
+                        .sign__btn{
+                            border: 1px solid;
+                            width: 350px;
+                            border-radius: 5%;
+                            padding: 10px;
+                            background-color: #74ac2f;
+                            color: white;
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                        .forget__buttomhref{
+                            display: flex;
+                            flex-direction:row ;
+                            gap: 4px;
+                            align-items: baseline;
+                            margin-top: 7px;
+                            .signaccount{
+                                color: #74ac2f;
+                            }
+                        }
+                    }
+                }
+            }
+            .forget__right{
+                position: relative;
+                width: 100%;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    #forgetpasword{
+        overflow: hidden;
+        height: 100vh;
+        .forgetpasword__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .forget__leftsize{
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .forget__left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-top: 18%;
+                    align-items: baseline;
+                    .forget__top{
+                        display: flex;
+                        gap: 15px;
+                        flex-direction: column;
+                        align-items: center;
+                        .forgettopname{
+                            font-weight: bold;
+                            font-size: 34px;
+                        }
+                        .forgettexts{
+                            width: 60%;
+                            text-align: center;
+                        }
+                        .forget__email {
+                            .inputtexweight {
+                                font-weight: bold;
+                            }
+                            .email__input {
+                                width: 350px;
+                                padding: 10px;
+                                border: 1px solid #EEEEEE;
+                                border-radius: 9px;
+                            }
+                            .email__input:focus {
+                                outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                               
+                            }
+                        }
+                        .sign__btn{
+                            border: 1px solid;
+                            width: 350px;
+                            border-radius: 5%;
+                            padding: 10px;
+                            background-color: #74ac2f;
+                            color: white;
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                        .forget__buttomhref{
+                            display: flex;
+                            flex-direction:row ;
+                            gap: 4px;
+                            align-items: baseline;
+                            margin-top: 7px;
+                            .signaccount{
+                                color: #74ac2f;
+                            }
+                        }
+                    }
+                }
+            }
+            .forget__right{
+               display: none;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    #forgetpasword{
+        overflow: hidden;
+        height: 100vh;
+        .forgetpasword__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .forget__leftsize{
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .forget__left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-top: 18%;
+                    align-items: baseline;
+                    .forget__top{
+                        display: flex;
+                        gap: 15px;
+                        flex-direction: column;
+                        align-items: center;
+                        .forgettopname{
+                            font-weight: bold;
+                            font-size: 34px;
+                        }
+                        .forgettexts{
+                            width: 60%;
+                            text-align: center;
+                        }
+                        .forget__email {
+                            .inputtexweight {
+                                font-weight: bold;
+                            }
+                            .email__input {
+                                width: 350px;
+                                padding: 10px;
+                                border: 1px solid #EEEEEE;
+                                border-radius: 9px;
+                            }
+                            .email__input:focus {
+                                outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                               
+                            }
+                        }
+                        .sign__btn{
+                            border: 1px solid;
+                            width: 350px;
+                            border-radius: 5%;
+                            padding: 10px;
+                            background-color: #74ac2f;
+                            color: white;
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                        .forget__buttomhref{
+                            display: flex;
+                            flex-direction:row ;
+                            gap: 4px;
+                            align-items: baseline;
+                            margin-top: 7px;
+                            .signaccount{
+                                color: #74ac2f;
+                            }
+                        }
+                    }
+                }
+            }
+            .forget__right{
+               display: none;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

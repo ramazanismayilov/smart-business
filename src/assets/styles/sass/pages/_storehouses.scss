@@ -1,0 +1,301 @@
+#storehouse {
+  width: 100%;
+  padding: 20px;
+
+  .store__container {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+
+    .store__top {
+      display: flex;
+      flex-direction: column;
+
+      .pagestop__direction {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .pages__name {
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+        .search-bar {
+          position: relative;
+          display: flex;
+          align-items: center;
+
+          .search-icon {
+            position: absolute;
+            right: 0;
+            left: 10px;
+            color: #888;
+          }
+
+          .search-input {
+            padding: 10px 40px 10px 35px;
+            border: 1px solid #ccc;
+            border-radius: 11px;
+            outline: none;
+          }
+          .search-input:focus {
+            outline: none; 
+            border-color: #74ac2f; 
+          }
+        }
+      }
+
+      .store_all {
+        border-bottom: 2px solid #80BD34;
+        width: 100px;
+        margin-top: 20px;
+        cursor: pointer;
+        color: #80BD34;
+      }
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+
+      th {
+        border: 1px solid #FFF4E8;
+        background-color: #FFF4E8;
+        padding: 10px;
+        text-align: center;
+      }
+
+      td {
+        border-top: none; /* Hide top border */
+        border-bottom: none; /* Hide bottom border */
+        padding: 10px;
+        text-align: center;
+      }
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px; /* Adjust as needed */
+    }
+
+  }
+}
+
+
+@media (max-width: 1200px) {
+  #storehouse {
+    width: 100%;
+    padding: 20px;
+  
+    .store__container {
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid white;
+      background-color: white;
+      padding: 30px;
+      width: 100%;
+  
+      .store__top {
+        display: flex;
+        flex-direction: column;
+  
+        .pagestop__direction {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+  
+          .pages__name {
+            font-size: 25px;
+            font-weight: bold;
+          }
+  
+          .search-bar {
+            position: relative;
+            display: flex;
+            align-items: center;
+  
+            .search-icon {
+              position: absolute;
+              right: 0;
+              left: 10px;
+              color: #888;
+            }
+  
+            .search-input {
+              padding: 10px 40px 10px 35px;
+              border: 1px solid #ccc;
+              border-radius: 11px;
+              outline: none;
+            }
+            .search-input:focus {
+              outline: none; 
+              border-color: #74ac2f; 
+            }
+          }
+        }
+  
+        .store_all {
+          border-bottom: 2px solid #80BD34;
+          width: 100px;
+          margin-top: 20px;
+          cursor: pointer;
+          color: #80BD34;
+        }
+      }
+  
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+  
+        th {
+          border: 1px solid #FFF4E8;
+          background-color: #FFF4E8;
+          padding: 10px;
+          text-align: center;
+        }
+  
+        td {
+          border-top: none; /* Hide top border */
+          border-bottom: none; /* Hide bottom border */
+          padding: 10px;
+          text-align: center;
+        }
+      }
+  
+      .pagination {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px; /* Adjust as needed */
+      }
+  
+    }
+  }
+  
+}
+@media (max-width: 768px) {
+  #storehouse {
+    width: 100%;
+    padding: 20px;
+  
+    .store__container {
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid white;
+      background-color: white;
+      padding: 30px;
+      width: 100%;
+  
+      .store__top {
+        display: flex;
+        flex-direction: column;
+  
+        .pagestop__direction {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+  
+          .pages__name {
+            font-size: 25px;
+            font-weight: bold;
+          }
+  
+          .search-bar {
+            position: relative;
+            display: flex;
+            align-items: center;
+  
+            .search-icon {
+              position: absolute;
+              right: 0;
+              left: 10px;
+              color: #888;
+            }
+  
+            .search-input {
+              padding: 10px 40px 10px 35px;
+              border: 1px solid #ccc;
+              border-radius: 11px;
+              outline: none;
+            }
+            .search-input:focus {
+              outline: none; 
+              border-color: #74ac2f; 
+            }
+          }
+        }
+  
+        .store_all {
+          border-bottom: 2px solid #80BD34;
+          width: 100px;
+          margin-top: 20px;
+          cursor: pointer;
+          color: #80BD34;
+        }
+      }
+  
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+  
+        th {
+          border: 1px solid #FFF4E8;
+          background-color: #FFF4E8;
+          padding: 10px;
+          text-align: center;
+        }
+  
+        td {
+          border-top: none; /* Hide top border */
+          border-bottom: none; /* Hide bottom border */
+          padding: 10px;
+          text-align: center;
+        }
+      }
+  
+      .pagination {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px; /* Adjust as needed */
+      }
+  
+    }
+  }
+  
+}
+@media (max-width: 575px) {
+  .store__items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cardstore {
+    margin-top: 12px;
+    border: 1px solid #FFF4E8;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+  }
+
+  .card-headers {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .card-content {
+    color: #333;
+    margin-bottom: 10px;
+  }
+}

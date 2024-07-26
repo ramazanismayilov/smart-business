@@ -1,0 +1,28 @@
+@mixin menu {
+    width: 18%;
+    background-color: $white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    .sidebar-content {
+        a {
+            color: $black;
+            padding: 10px 32px;
+            border-radius: 10px;
+            display: block;
+            font-weight: 500;
+        }
+
+        .content-second {
+            margin-top: 70px;
+        }
+    }
+
+    .footer {
+        span {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.salepage {
+    .sale {
+        background-color: $white;
+        height: 82vh;
+        position: relative;
+
+        .heading {
+            .search .input-group {
+
+                span {
+                    background: $white;
+                }
+                input {
+                    border-left: 0;
+                    &:focus {
+                        box-shadow: none;
+                        border-color: $green;
+                    }
+                }
+            }
+        }
+        h4 {
+            color: $green;
+            border-bottom: 2px solid $green;
+            width: 100px;
+            font-size: 16px;
+        }
+        .filterbtn {
+            button {
+                font-size: 14px;
+                padding: 8px 10px;
+                border-radius: 10px;
+                background: none;
+            }
+        }
+        .laptop {
+            table thead tr th {
+                background: $seashell;
+            }
+        }
+        .mobile {
+            display: none;
+            .card {
+                h6 {
+                    color: $brightOrange;
+                }
+            }
+        }
+    }
+}
+@media(max-width:768px) {
+
+    .sale {
+        height: auto !important;
+    }
+
+    .laptop {
+        display: none;
+    }
+    .mobile {
+        display: block !important;
+    }
+}

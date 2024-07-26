@@ -1,0 +1,202 @@
+#emailsend{
+    overflow: hidden;
+    height: 100vh;
+    .emailsend__container{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+.email__leftsize{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .email__left{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 18%;
+        align-items: baseline;
+        .email__top{
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            align-items: center;
+            .signaccount{
+                color: green;
+            }
+            .emailtopname{
+                font-weight: bold;
+                font-size: 34px;
+            }
+            .emailtexts{
+                width: 70%;
+                text-align: center;
+            }
+        }
+    }
+}
+        .email__right{
+            position: relative;
+            width: 100%;
+            .logindefaultphoto {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #emailsend{
+        overflow: hidden;
+        height: 100vh;
+        .emailsend__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+    .email__leftsize{
+        width: 100%;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .email__left{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 18%;
+            align-items: baseline;
+            .email__top{
+                display: flex;
+                gap: 15px;
+                flex-direction: column;
+                align-items: center;
+                .signaccount{
+                    color: green;
+                }
+                .emailtopname{
+                    font-weight: bold;
+                    font-size: 34px;
+                }
+                .emailtexts{
+                    width: 70%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+            .email__right{
+                position: relative;
+                width: 100%;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    #emailsend{
+        overflow: hidden;
+        height: 100vh;
+        .emailsend__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+    .email__leftsize{
+        width: 100%;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .email__left{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 18%;
+            align-items: baseline;
+            .email__top{
+                display: flex;
+                gap: 15px;
+                flex-direction: column;
+                align-items: center;
+                .signaccount{
+                    color: green;
+                }
+                .emailtopname{
+                    font-weight: bold;
+                    font-size: 34px;
+                }
+                .emailtexts{
+                    width: 70%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+            .email__right{
+              display: none;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    #emailsend{
+        overflow: hidden;
+        height: 100vh;
+        .emailsend__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+    .email__leftsize{
+        width: 100%;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .email__left{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 18%;
+            align-items: baseline;
+            .email__top{
+                display: flex;
+                gap: 15px;
+                flex-direction: column;
+                align-items: center;
+                .signaccount{
+                    color: green;
+                }
+                .emailtopname{
+                    font-weight: bold;
+                    font-size: 34px;
+                }
+                .emailtexts{
+                    width: 70%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+            .email__right{
+              display: none;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,648 @@
+#login {
+    overflow: hidden;
+    height: 100vh;
+    .login__container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        .login__leftsize {
+            width: 100%;
+            background-color: white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .login__left {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                margin-top: 18%;
+                align-items: baseline;
+                .login__top {
+                    font-size: 26px;
+                    font-weight: bold;
+                }
+                .login__inputbtn {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .login__inputs {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        margin-top: 10px;
+                        margin-left: 0%;
+                        .login__email {
+                            .inputtexweight {
+                                font-weight: bold;
+                            }
+                            .email__input {
+                                width: 350px;
+                                padding: 10px;
+                                border: 1px solid #EEEEEE;
+                                border-radius: 9px;
+                            }
+                            .email__input:focus {
+                                outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                               
+                            }
+                        }
+                        .passwordforget {
+                            color: #74ac2f;
+                        }
+                        .login__password {
+                            .inputtexweight {
+                                font-weight: bold;
+                                font-size: 15px;
+                            }
+                            .paswordinptsd {
+                                position: relative;
+                                display: flex;
+                                flex-direction: row;
+                                .passwordvisible{
+                                    width: 350px;
+                                    padding: 10px;
+                                    border: 1px solid #EEEEEE;
+                                    border-radius: 9px;
+                                    
+                                    
+                                }
+                                .passwordvisible:focus {
+                                    outline: none; 
+                                    border-color: #74ac2f; 
+                                   
+                                }
+                                
+                                .eyesiconsd {
+                                    position: absolute;
+                                    transform: translateY(-50%);
+                                    cursor: pointer;
+                                    top: 50%;
+                                    right: 5px;
+                                }
+                            }
+                        }
+                        .paswordforget {
+                            color: #74ac2f;
+                        }
+                    }
+                    .login__button {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        align-items: center;
+                        .sign__btn {
+                            border: 1px solid;
+                            width: 350px;
+                            border-radius: 5%;
+                            padding: 10px;
+                            background-color: #74ac2f;
+                            color: white;
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                        .linemore {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: baseline;
+                            gap: 8px;
+                            .lisnesmoretext {
+                                color: #74ac2f;
+                                font-size: 12px;
+                            }
+                            .linesgooglebtn {
+                                border: 1px solid #8E98A8;
+                                width: 150px;
+                                height: 0;
+                                opacity: 25%;
+                            }
+                        }
+                        .google__button {
+                            border: 1px solid #D8EBC0;
+                            border-radius: 12px;
+                            width: 350px;
+                            padding: 4px;
+                            .googlebox {
+                                text-decoration: none;
+                                display: flex;
+                                flex-direction: row;
+                                gap: 6px;
+                                justify-content: center;
+                                align-items: flex-start;
+                                .google {
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                    .login__buttomtext {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 5px;
+                        .signaccount {
+                            text-decoration: none;
+                            color: #74ac2f;
+                        }
+                    }
+                }
+            }
+        }
+        .login__right {
+            position: relative;
+            width: 100%;
+            .logindefaultphoto {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    #login {
+        overflow: hidden;
+        height: 100vh;
+        .login__container {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .login__leftsize {
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .login__left {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    margin-top: 18%;
+                    align-items: baseline;
+                    .login__top {
+                        font-size: 26px;
+                        font-weight: bold;
+                    }
+                    .login__inputbtn {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .login__inputs {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+                            margin-top: 10px;
+                            margin-left: 0%;
+                            .login__email {
+                                .inputtexweight {
+                                    font-weight: bold;
+                                }
+                                .email__input {
+                                    width: 350px;
+                                    padding: 10px;
+                                    border: 1px solid #EEEEEE;
+                                    border-radius: 9px;
+                                }
+                                .email__input:focus {
+                                    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                                   
+                                }
+                            }
+                            .passwordforget {
+                                color: #74ac2f;
+                            }
+                            .login__password {
+                                .inputtexweight {
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                }
+                                .paswordinptsd {
+                                    position: relative;
+                                    display: flex;
+                                    flex-direction: row;
+                                    .passwordvisible{
+                                        width: 350px;
+                                        padding: 10px;
+                                        border: 1px solid #EEEEEE;
+                                        border-radius: 9px;
+                                        
+                                        
+                                    }
+                                    .passwordvisible:focus {
+                                        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                                       
+                                    }
+                                    
+                                    .eyesiconsd {
+                                        position: absolute;
+                                        transform: translateY(-50%);
+                                        cursor: pointer;
+                                        top: 50%;
+                                        right: 5px;
+                                    }
+                                }
+                            }
+                            .paswordforget {
+                                color: #74ac2f;
+                            }
+                        }
+                        .login__button {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            align-items: center;
+                            .sign__btn {
+                                border: 1px solid;
+                                width: 350px;
+                                border-radius: 5%;
+                                padding: 10px;
+                                background-color: #74ac2f;
+                                color: white;
+                                text-align: center;
+                                cursor: pointer;
+                            }
+                            .linemore {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: baseline;
+                                gap: 8px;
+                                .lisnesmoretext {
+                                    color: #74ac2f;
+                                    font-size: 12px;
+                                }
+                                .linesgooglebtn {
+                                    border: 1px solid #8E98A8;
+                                    width: 150px;
+                                    height: 0;
+                                    opacity: 25%;
+                                }
+                            }
+                            .google__button {
+                                border: 1px solid #D8EBC0;
+                                border-radius: 12px;
+                                width: 350px;
+                                padding: 4px;
+                                .googlebox {
+                                    text-decoration: none;
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 6px;
+                                    justify-content: center;
+                                    align-items: flex-start;
+                                    .google {
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+                        .login__buttomtext {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 5px;
+                            .signaccount {
+                                text-decoration: none;
+                                color: #74ac2f;
+                            }
+                        }
+                    }
+                }
+            }
+            .login__right {
+                position: relative;
+                width: 100%;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    #login {
+        overflow: hidden;
+        height: 100vh;
+        .login__container {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .login__leftsize {
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .login__left {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+               
+                    margin-top: 18%;
+                  
+                    align-items: baseline;
+                    .login__top {
+                        font-size: 26px;
+                        font-weight: bold;
+                    }
+                    .login__inputbtn {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .login__inputs {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+                            margin-top: 10px;
+                            margin-left: 0%;
+                            .login__email {
+                                .inputtexweight {
+                                    font-weight: bold;
+                                }
+                                .email__input {
+                                    width: 350px;
+                                    padding: 10px;
+                                    border: 1px solid #EEEEEE;
+                                    border-radius: 9px;
+                                }
+                                .email__input:focus {
+                                    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                                   
+                                }
+                            }
+                            .passwordforget {
+                                color: #74ac2f;
+                            }
+                            .login__password {
+                                .inputtexweight {
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                }
+                                .paswordinptsd {
+                                    position: relative;
+                                    display: flex;
+                                    flex-direction: row;
+                                    .passwordvisible{
+                                        width: 350px;
+                                        padding: 10px;
+                                        border: 1px solid #EEEEEE;
+                                        border-radius: 9px;
+                                        
+                                        
+                                    }
+                                    .passwordvisible:focus {
+                                        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                                       
+                                    }
+                                    
+                                    .eyesiconsd {
+                                        position: absolute;
+                                        transform: translateY(-50%);
+                                        cursor: pointer;
+                                        top: 50%;
+                                        right: 5px;
+                                    }
+                                }
+                            }
+                            .paswordforget {
+                                color: #74ac2f;
+                            }
+                        }
+                        .login__button {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            align-items: center;
+                            .sign__btn {
+                                border: 1px solid;
+                                width: 350px;
+                                border-radius: 5%;
+                                padding: 10px;
+                                background-color: #74ac2f;
+                                color: white;
+                                text-align: center;
+                                cursor: pointer;
+                            }
+                            .linemore {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: baseline;
+                                gap: 8px;
+                                .lisnesmoretext {
+                                    color: #74ac2f;
+                                    font-size: 12px;
+                                }
+                                .linesgooglebtn {
+                                    border: 1px solid #8E98A8;
+                                    width: 150px;
+                                    height: 0;
+                                    opacity: 25%;
+                                }
+                            }
+                            .google__button {
+                                border: 1px solid #D8EBC0;
+                                border-radius: 12px;
+                                width: 350px;
+                                padding: 4px;
+                                .googlebox {
+                                    text-decoration: none;
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 6px;
+                                    justify-content: center;
+                                    align-items: flex-start;
+                                    .google {
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+                        .login__buttomtext {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 5px;
+                            .signaccount {
+                                text-decoration: none;
+                                color: #74ac2f;
+                            }
+                        }
+                    }
+                }
+            }
+            .login__right {
+               display: none;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    #login {
+        overflow: hidden;
+        height: 100vh;
+        .login__container {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .login__leftsize {
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .login__left {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+               
+                    margin-top: 18%;
+                  
+                    align-items: baseline;
+                    .login__top {
+                        font-size: 26px;
+                        font-weight: bold;
+                    }
+                    .login__inputbtn {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .login__inputs {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+                            margin-top: 10px;
+                            margin-left: 0%;
+                            .login__email {
+                                .inputtexweight {
+                                    font-weight: bold;
+                                }
+                                .email__input {
+                                    width: 350px;
+                                    padding: 10px;
+                                    border: 1px solid #EEEEEE;
+                                    border-radius: 9px;
+                                }
+                                .email__input:focus {
+                                    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                                   
+                                }
+                            }
+                            .passwordforget {
+                                color: #74ac2f;
+                            }
+                            .login__password {
+                                .inputtexweight {
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                }
+                                .paswordinptsd {
+                                    position: relative;
+                                    display: flex;
+                                    flex-direction: row;
+                                    .passwordvisible{
+                                        width: 350px;
+                                        padding: 10px;
+                                        border: 1px solid #EEEEEE;
+                                        border-radius: 9px;
+                                        
+                                        
+                                    }
+                                    .passwordvisible:focus {
+                                        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                                        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                                       
+                                    }
+                                    
+                                    .eyesiconsd {
+                                        position: absolute;
+                                        transform: translateY(-50%);
+                                        cursor: pointer;
+                                        top: 50%;
+                                        right: 5px;
+                                    }
+                                }
+                            }
+                            .paswordforget {
+                                color: #74ac2f;
+                            }
+                        }
+                        .login__button {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            align-items: center;
+                            .sign__btn {
+                                border: 1px solid;
+                                width: 350px;
+                                border-radius: 5%;
+                                padding: 10px;
+                                background-color: #74ac2f;
+                                color: white;
+                                text-align: center;
+                                cursor: pointer;
+                            }
+                            .linemore {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: baseline;
+                                gap: 8px;
+                                .lisnesmoretext {
+                                    color: #74ac2f;
+                                    font-size: 12px;
+                                }
+                                .linesgooglebtn {
+                                    border: 1px solid #8E98A8;
+                                    width: 150px;
+                                    height: 0;
+                                    opacity: 25%;
+                                }
+                            }
+                            .google__button {
+                                border: 1px solid #D8EBC0;
+                                border-radius: 12px;
+                                width: 350px;
+                                padding: 4px;
+                                .googlebox {
+                                    text-decoration: none;
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 6px;
+                                    justify-content: center;
+                                    align-items: flex-start;
+                                    .google {
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+                        .login__buttomtext {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 5px;
+                            .signaccount {
+                                text-decoration: none;
+                                color: #74ac2f;
+                            }
+                        }
+                    }
+                }
+            }
+            .login__right {
+               display: none;
+                .logindefaultphoto {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

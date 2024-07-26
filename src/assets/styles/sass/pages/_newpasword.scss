@@ -1,0 +1,507 @@
+#newpasword{
+    overflow: hidden;
+    height: 100vh;
+    .newpasword__container{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        .newpasword__leftsize{
+            width: 100%;
+            background-color: white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .newpasword__left{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 18%;
+                align-items: baseline;
+                .newpasword__top{
+                    .topnames{
+                        font-size: 32px;
+                        font-weight: bold;
+                    }
+                }
+              .newpasword__inputs{
+                display: flex;
+                flex-direction: column;
+                margin-left: 10px;
+                align-items: baseline;
+                gap: 6px;
+                .newpasword__email{
+                    .email__input {
+                        width: 367px;
+                        padding: 10px;
+                        border: 1px solid #EEEEEE;
+                        border-radius: 9px;
+                    }
+                    .email__input:focus{
+                        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                    }
+                    .inputtexweight {
+                        font-weight: bold;
+                    }
+
+                }
+                .newpasword__top {
+                    .paswordsinpt {
+                        position: relative;
+                        .airicons {
+                            position: absolute;
+                            right: 8%;
+                            top: 40%;
+                            cursor: pointer;
+                        }
+                    }
+                    .inputtexweight {
+                        font-weight: bold;
+                    }
+                    .paswordvisible {
+                        width: 367px;
+                        padding: 10px;
+                        border: 1px solid #EEEEEE;
+                        border-radius: 9px;
+                    }
+.paswordvisible:focus{
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+                    .paswordforget {
+                        color: #74ac2f;
+                    }
+                }
+                .newpasword__restrat {
+                    .paswordsinpt {
+                        position: relative;
+                        .air__icon {
+                            position: absolute;
+                            right: 8%;
+                            top: 40%;
+                            cursor: pointer;
+                        }
+                    }
+                    .inputtexweight {
+                        font-weight: bold;
+                    }
+                    .paswordvisible {
+                        width: 367px;
+                        padding: 10px;
+                        border: 1px solid #EEEEEE;
+                        border-radius: 9px;
+                    }
+.paswordvisible:focus{
+    outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+    border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+}
+                    .paswordforget {
+                        color: #74ac2f;
+                    }
+                }
+                .sign__btn {
+                    border: 1px solid;
+                    width: 350px;
+                    border-radius: 5%;
+                    padding: 10px;
+                    background-color: #74ac2f;
+                    color: white;
+                    text-align: center;
+                    cursor: pointer;
+                    margin-top: 12px;
+                }
+              }
+            }
+        }
+        .newpasword__right{
+            position: relative;
+            width: 100%;
+            .logindeafultphoto {
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    #newpasword{
+        overflow: hidden;
+        height: 100vh;
+        .newpasword__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .newpasword__leftsize{
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .newpasword__left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-top: 18%;
+                    align-items: baseline;
+                    .newpasword__top{
+                        .topnames{
+                            font-size: 32px;
+                            font-weight: bold;
+                        }
+                    }
+                  .newpasword__inputs{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 10px;
+                    align-items: baseline;
+                    gap: 6px;
+                    .newpasword__email{
+                        .email__input {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+                        .email__input:focus{
+                            outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                            border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+    
+                    }
+                    .newpasword__top {
+                        .paswordsinpt {
+                            position: relative;
+                            .airicons {
+                                position: absolute;
+                                right: 8%;
+                                top: 40%;
+                                cursor: pointer;
+                            }
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+                        .paswordvisible {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+    .paswordvisible:focus{
+        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+    }
+                        .paswordforget {
+                            color: #74ac2f;
+                        }
+                    }
+                    .newpasword__restrat {
+                        .paswordsinpt {
+                            position: relative;
+                            .air__icon {
+                                position: absolute;
+                                right: 8%;
+                                top: 40%;
+                                cursor: pointer;
+                            }
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+                        .paswordvisible {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+    .paswordvisible:focus{
+        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+    }
+                        .paswordforget {
+                            color: #74ac2f;
+                        }
+                    }
+                    .sign__btn {
+                        border: 1px solid;
+                        width: 350px;
+                        border-radius: 5%;
+                        padding: 10px;
+                        background-color: #74ac2f;
+                        color: white;
+                        text-align: center;
+                        cursor: pointer;
+                        margin-top: 12px;
+                    }
+                  }
+                }
+            }
+            .newpasword__right{
+                position: relative;
+                width: 100%;
+                .logindeafultphoto {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #newpasword{
+        overflow: hidden;
+        height: 100vh;
+        .newpasword__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .newpasword__leftsize{
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .newpasword__left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-top: 18%;
+                    align-items: baseline;
+                    .newpasword__top{
+                        .topnames{
+                            font-size: 32px;
+                            font-weight: bold;
+                        }
+                    }
+                  .newpasword__inputs{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 10px;
+                    align-items: baseline;
+                    gap: 6px;
+                    .newpasword__email{
+                        .email__input {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+                        .email__input:focus{
+                            outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                            border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+    
+                    }
+                    .newpasword__top {
+                        .paswordsinpt {
+                            position: relative;
+                            .airicons {
+                                position: absolute;
+                                right: 8%;
+                                top: 40%;
+                                cursor: pointer;
+                            }
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+                        .paswordvisible {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+    .paswordvisible:focus{
+        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+    }
+                        .paswordforget {
+                            color: #74ac2f;
+                        }
+                    }
+                    .newpasword__restrat {
+                        .paswordsinpt {
+                            position: relative;
+                            .air__icon {
+                                position: absolute;
+                                right: 8%;
+                                top: 40%;
+                                cursor: pointer;
+                            }
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+                        .paswordvisible {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+    .paswordvisible:focus{
+        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+    }
+                        .paswordforget {
+                            color: #74ac2f;
+                        }
+                    }
+                    .sign__btn {
+                        border: 1px solid;
+                        width: 350px;
+                        border-radius: 5%;
+                        padding: 10px;
+                        background-color: #74ac2f;
+                        color: white;
+                        text-align: center;
+                        cursor: pointer;
+                        margin-top: 12px;
+                    }
+                  }
+                }
+            }
+            .newpasword__right{
+               display: none;
+                .logindeafultphoto {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #newpasword{
+        overflow: hidden;
+        height: 100vh;
+        .newpasword__container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .newpasword__leftsize{
+                width: 100%;
+                background-color: white;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .newpasword__left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-top: 18%;
+                    align-items: baseline;
+                    .newpasword__top{
+                        .topnames{
+                            font-size: 32px;
+                            font-weight: bold;
+                        }
+                    }
+                  .newpasword__inputs{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 10px;
+                    align-items: baseline;
+                    gap: 6px;
+                    .newpasword__email{
+                        .email__input {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+                        .email__input:focus{
+                            outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+                            border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+    
+                    }
+                    .newpasword__top {
+                        .paswordsinpt {
+                            position: relative;
+                            .airicons {
+                                position: absolute;
+                                right: 8%;
+                                top: 40%;
+                                cursor: pointer;
+                            }
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+                        .paswordvisible {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+    .paswordvisible:focus{
+        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+    }
+                        .paswordforget {
+                            color: #74ac2f;
+                        }
+                    }
+                    .newpasword__restrat {
+                        .paswordsinpt {
+                            position: relative;
+                            .air__icon {
+                                position: absolute;
+                                right: 8%;
+                                top: 40%;
+                                cursor: pointer;
+                            }
+                        }
+                        .inputtexweight {
+                            font-weight: bold;
+                        }
+                        .paswordvisible {
+                            width: 367px;
+                            padding: 10px;
+                            border: 1px solid #EEEEEE;
+                            border-radius: 9px;
+                        }
+    .paswordvisible:focus{
+        outline: none; /* Varsayılan mavi çevre çizgisini kaldırır */
+        border-color: #74ac2f; /* Kenarlık rengini değiştirir */
+    }
+                        .paswordforget {
+                            color: #74ac2f;
+                        }
+                    }
+                    .sign__btn {
+                        border: 1px solid;
+                        width: 350px;
+                        border-radius: 5%;
+                        padding: 10px;
+                        background-color: #74ac2f;
+                        color: white;
+                        text-align: center;
+                        cursor: pointer;
+                        margin-top: 12px;
+                    }
+                  }
+                }
+            }
+            .newpasword__right{
+               display: none;
+                .logindeafultphoto {
+                    width: 100%;
+                }
+            }
+        }
+    }
+  }
+  

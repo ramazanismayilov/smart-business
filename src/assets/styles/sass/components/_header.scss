@@ -1,0 +1,53 @@
+@import '../components/dropdown';
+@import '../themes/color';
+
+header {
+    background-color: $white;
+    padding-left: 18rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+
+    .search-bar {
+        .dropdown .menu {
+            background-color: $white;
+        }
+
+        .store {
+            @include dropdown;
+
+            .dropdown .menu {
+                width: 300px;
+            }
+        }
+
+        .language {
+            @include dropdown;
+
+        }
+
+        .notification {
+            @include dropdown;
+
+            .dropdown .menu {
+                width: 350px;
+            }
+        }
+
+        .profile {
+            img {
+                background-color: $peach;
+                border-radius: 10px;
+                width: 48px;
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    header{
+        padding: 0;
+        padding-left: 40px;
+    }
+}

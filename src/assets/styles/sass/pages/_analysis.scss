@@ -1,0 +1,40 @@
+@import '../themes/color';
+
+.analysis {
+    
+    .heading {
+        .phone {
+            span {
+                font-size: 20px;
+            }
+        }
+        .filterbtn {
+            button {
+                font-size: 14px;
+                padding: 8px 10px;
+                border-radius: 10px;
+                background: none;
+            }
+        }
+    }
+    .cards {
+        a {
+            color: $black;
+        }
+        .item {
+            background-color: $white;
+            padding: 15px 20px;
+            border-radius: 15px;
+            .image {
+                border: 1px solid $pastelOrange;
+                width: 40px;
+            }
+            .progress .progress-bar {
+                background-color: $brightOrange;
+            }
+            .price span {
+                font-size: 27px;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+// ---------------- pages -----------------
+@import './sass/pages/analysis';
+@import './sass/pages/account';
+@import './sass/pages/sale';
+@import './sass/pages/cashbox';
+@import './sass/pages/storehouses';
+@import './sass/pages/debt';
+@import './sass/pages/login';
+@import './sass/pages/registration';
+@import './sass/pages/stores';
+@import './sass/pages/exit';
+@import './sass/pages/newpasword';
+@import './sass/pages/forgetpasword';
+@import './sass/pages/emailsend';
+// ---------------- base -------------------
+@import './sass/base/reset';
+// ---------------- themes -------------------
+@import '../styles/sass/themes/color';
+@import '../styles/sass/themes/variable';
+// ---------------- components -------------------
+@import "./sass/components/sidebar";
+@import "./sass/components/header";
+@import './sass/components/dropdown';
+@import './sass/components/menu';

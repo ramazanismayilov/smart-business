@@ -1,0 +1,37 @@
+@mixin dropdown {
+    .dropdown {
+        position: relative;
+
+        button {
+            color: $darkGreen;
+            background: $lightGray;
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        .menu {
+            position: absolute;
+            z-index: 1;
+            width: auto;
+            right: 0;
+            padding: 10px;
+            box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.38);
+
+            button {
+                background: transparent;
+            }
+
+            .content {
+                h5 {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+
+                span {
+                    font-size: 14px;
+                    color: $taupeGray;
+                }
+            }
+        }
+    }
+}

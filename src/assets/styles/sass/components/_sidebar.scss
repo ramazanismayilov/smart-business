@@ -1,0 +1,85 @@
+@import '../components/menu';
+@import '../themes/color';
+
+svg path {
+    stroke: gray;
+}
+
+.active {
+    background: $green;
+    color: $white !important;
+
+    svg path {
+        stroke: #fff;
+    }
+}
+
+.sidebar {
+    @include menu;
+    height: 100vh;
+}
+
+.sidebar-menu {
+    @include menu;
+
+    .open-btn {
+        display: none;
+        background-color: transparent;
+        position: absolute;
+        top: 19px;
+        font-size: 25px;
+    }
+
+    .close-btn {
+        background-color: transparent;
+        position: absolute;
+        right: 10px;
+        font-size: 30px;
+    }
+
+    .offcanvas-menu {
+        overflow-y: scroll;
+        z-index: 100;
+        position: fixed;
+        // top: 0;
+        // left: 0;
+        width: 30% !important;
+        height: 100vh;
+        transform: translate(-100%);
+        transition: .5s;
+        @include menu;
+
+        &.open {
+            transform: translate(0);
+        }
+
+        &.close {
+            transform: translate(100%);
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar-menu {
+
+        .open-btn {
+            display: block;
+        }
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:576px) {
+    .sidebar-menu {
+        .offcanvas-menu {
+            width: 50% !important;
+        }
+    }
+}

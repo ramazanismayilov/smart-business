@@ -1,0 +1,453 @@
+#cashbox {
+  width: 100%;
+  padding: 20px;
+  
+  .cashbox__container {
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+
+    .cashbox__top {
+      display: flex;
+      flex-direction: column;
+
+      .pagestop__direction {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .pages__name {
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+        .search-bar {
+          position: relative;
+          display: flex;
+          align-items: center;
+
+          .search-icon {
+            position: absolute;
+            right: 0;
+            left: 10px;
+            color: #888;
+          }
+
+          .search-input {
+            padding: 10px 40px 10px 35px;
+            border: 1px solid #ccc;
+            border-radius: 11px;
+            outline: none;
+            width: 100%; /* Ensure full width */
+          }
+
+          .search-input:focus {
+            outline: none;
+            border-color: #74ac2f;
+          }
+        }
+      }
+
+      .cashboxs__name {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+
+        .cashbox__cashregister,
+        .cashbox__payment,
+        .cashbox__card {
+          margin-top: 20px;
+          border-bottom: 2px solid transparent;
+          width: 150px;
+          cursor: pointer;
+
+          p {
+            text-align: center;
+            color: black;
+          }
+        }
+
+        .cashcregistor.text,
+        .cashpayment.text,
+        .cashcard.text {
+          border-bottom: 2px solid #80bd34;
+          color: #80bd34;
+
+          p {
+            color: black;
+          }
+        }
+      }
+    }
+
+    .cashbox__items {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 15px;
+        background-color: #f9f9f9;
+
+        .card-headers {
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+
+        .card-content {
+          margin-bottom: 10px;
+          padding: 5px;
+          border-radius: 5px;
+        }
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+
+        th {
+          border: 1px solid #FFF4E8;
+          background-color: #FFF4E8;
+          padding: 10px;
+          text-align: center;
+        }
+
+        td {
+          border-top: none; /* Hide top border */
+          border-bottom: none; /* Hide bottom border */
+          padding: 10px;
+          text-align: center;
+        }
+        
+      }
+      
+      .pagination {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px; /* Adjust as needed */
+      }
+    }
+
+  }
+}
+
+@media (max-width: 575px) {
+  .cashbox__container {
+    .cashbox__items {
+      .card {
+        margin-top: 12px;
+        border: 1px solid #FFF4E8 !important;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        background-color: white !important ; 
+        .card-headers {
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+
+        .card-content {
+          margin-bottom: 10px;
+        }
+      }
+
+      .pagination {
+       display: flex !important;
+       justify-content: center !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #cashbox {
+    width: 100%;
+    padding: 20px;
+    .cashbox__container {
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid white;
+      background-color: white;
+      padding: 30px;
+      width: 100%;
+  
+      .cashbox__top {
+        display: flex;
+        flex-direction: column;
+  
+        .pagestop__direction {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+  
+          .pages__name {
+            font-size: 25px;
+            font-weight: bold;
+          }
+  
+          .search-bar {
+            position: relative;
+            display: flex;
+            align-items: center;
+  
+            .search-icon {
+              position: absolute;
+              right: 0;
+              left: 10px;
+              color: #888;
+            }
+  
+            .search-input {
+              padding: 10px 40px 10px 35px;
+              border: 1px solid #ccc;
+              border-radius: 11px;
+              outline: none;
+              width: 100%; /* Ensure full width */
+            }
+  
+            .search-input:focus {
+              outline: none;
+              border-color: #74ac2f;
+            }
+          }
+        }
+  
+        .cashboxs__name {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          align-items: center;
+  
+          .cashbox__cashregister,
+          .cashbox__payment,
+          .cashbox__card {
+            margin-top: 20px;
+            border-bottom: 2px solid transparent;
+            width: 150px;
+            cursor: pointer;
+  
+            p {
+              text-align: center;
+              color: black;
+            }
+          }
+  
+          .cashcregistor.text,
+          .cashpayment.text,
+          .cashcard.text {
+            border-bottom: 2px solid #80bd34;
+            color: #80bd34;
+  
+            p {
+              color: black;
+            }
+          }
+        }
+      }
+  
+      .cashbox__items {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+  
+        .card {
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          padding: 15px;
+          background-color: #f9f9f9;
+  
+          .card-headers {
+            font-weight: bold;
+            margin-bottom: 5px;
+          }
+  
+          .card-content {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-radius: 5px;
+          }
+        }
+  
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+  
+          th {
+            border: 1px solid #FFF4E8;
+            background-color: #FFF4E8;
+            padding: 10px;
+            text-align: center;
+          }
+  
+          td {
+            border-top: none; /* Hide top border */
+            border-bottom: none; /* Hide bottom border */
+            padding: 10px;
+            text-align: center;
+          }
+        }
+        .pagination {
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 10px; /* Adjust as needed */
+        }
+      }
+  
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #cashbox {
+    width: 100%;
+    padding: 20px;
+    .cashbox__container {
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid white;
+      background-color: white;
+      padding: 30px;
+      width: 100%;
+  
+      .cashbox__top {
+        display: flex;
+        flex-direction: column;
+  
+        .pagestop__direction {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+  
+          .pages__name {
+            font-size: 25px;
+            font-weight: bold;
+          }
+  
+          .search-bar {
+            position: relative;
+            display: flex;
+            align-items: center;
+  
+            .search-icon {
+              position: absolute;
+              right: 0;
+              left: 10px;
+              color: #888;
+            }
+  
+            .search-input {
+              padding: 10px 40px 10px 35px;
+              border: 1px solid #ccc;
+              border-radius: 11px;
+              outline: none;
+              width: 100%; /* Ensure full width */
+            }
+  
+            .search-input:focus {
+              outline: none;
+              border-color: #74ac2f;
+            }
+          }
+        }
+  
+        .cashboxs__name {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          align-items: center;
+  
+          .cashbox__cashregister,
+          .cashbox__payment,
+          .cashbox__card {
+            margin-top: 20px;
+            border-bottom: 2px solid transparent;
+            width: 150px;
+            cursor: pointer;
+  
+            p {
+              text-align: center;
+              color: black;
+            }
+          }
+  
+          .cashcregistor.text,
+          .cashpayment.text,
+          .cashcard.text {
+            border-bottom: 2px solid #80bd34;
+            color: #80bd34;
+  
+            p {
+              color: black;
+            }
+          }
+        }
+      }
+  
+      .cashbox__items {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+  
+        .card {
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          padding: 15px;
+          background-color: #f9f9f9;
+  
+          .card-headers {
+            font-weight: bold;
+            margin-bottom: 5px;
+          }
+  
+          .card-content {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-radius: 5px;
+          }
+        }
+  
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+  
+          th {
+            border: 1px solid #FFF4E8;
+            background-color: #FFF4E8;
+            padding: 10px;
+            text-align: center;
+          }
+  
+          td {
+            border-top: none; /* Hide top border */
+            border-bottom: none; /* Hide bottom border */
+            padding: 10px;
+            text-align: center;
+          }
+        }
+        .pagination {
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 10px; /* Adjust as needed */
+        }
+      }
+  
+    }
+  }
+}
+
+
+
+
+
